@@ -1,0 +1,19 @@
+{
+  "name": "ELink-docs",
+  "version": "1.0.0",
+  "description": "衣链（JAVA）组件文档",
+  "main": "index.js",
+  "author": "wrx",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.5"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.7"
+  }
+}
